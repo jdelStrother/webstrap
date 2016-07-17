@@ -1,6 +1,6 @@
 {
   "name": "webstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny tool for setting up a new webpack project with sane defaults",
   "main": "index.js",
   "scripts": {
