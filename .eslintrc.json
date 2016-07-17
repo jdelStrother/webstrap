@@ -1,0 +1,9 @@
+{
+  "extends": "standard",
+  "rules": {
+    // eslint uses [2, 'never'] for padded-blocks, but it's sometimes nice to add a line before 'else'
+    "padded-blocks": 0,
+    // 'standard' sets this to always, which I kinda hate, especially for anonymous functions
+    "space-before-function-paren": [2, "never"]
+  }
+}

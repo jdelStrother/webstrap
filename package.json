@@ -1,0 +1,32 @@
+{
+  "name": "webstrap",
+  "version": "1.0.0",
+  "description": "A tiny tool for setting up a new webpack project with sane defaults",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "webstrap": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdelStrother/webstrap.git"
+  },
+  "keywords": [
+    "webpack",
+    "bootstrap",
+    "babel"
+  ],
+  "author": "Jonathan del Strother",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdelStrother/webstrap/issues"
+  },
+  "homepage": "https://github.com/jdelStrother/webstrap#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ncp": "^2.0.0",
+    "replacestream": "^4.0.0"
+  }
+}
